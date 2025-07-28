@@ -1,0 +1,1 @@
+// JavaScript for language detection will be here
