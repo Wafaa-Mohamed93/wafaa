@@ -1,1 +1,67 @@
+/* الخط الأساسي */
+body {
+  font-family: 'Cairo', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #111;
+  line-height: 1.6;
+}
+
+/* ترويسة الموقع وتذييله */
+header, footer {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* قائمة التنقل */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+a {
+  color: #007B5E; /* أخضر هادئ */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+/* ترويسة الأقسام */
+h2 {
+  border-bottom: 2px solid #007B5E;
+  padding-bottom: 0.5rem;
+}
+
+/* استجابة للشاشات الصغيرة */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section {
+    padding: 0 1rem;
+  }
+}
 /* CSS styling will be here */
